@@ -17,12 +17,13 @@ This version contains two nested circular progress indicators. You can create mo
 ## How to use it
 Insert the directive mark-up in a view:
 
+```html
 <circular-progress class="cp-widget"
     data-innercurrent="1123"
     data-innertotal="2235"
     data-outercurrent="700"
     data-outertotal="1000">
 </circular-progress>
-
+```
 
 See index.html for an example.
