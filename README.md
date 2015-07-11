@@ -2,8 +2,9 @@ Angular Circular Progress indicator
 =================
 A double circular progress indicator using Angular JS.
 
+![alt tag](https://raw.githubusercontent.com/niwatc/ng-circularProgress/master/example.png)
 
-DESCRIPTION
+Description
 ========
 A simple AngularJS directive, for showing a circular progress indicator ("donut progress" widget).
 This version contains two nested circular progress indicators. You can create more for inner circles by editing the directive.
