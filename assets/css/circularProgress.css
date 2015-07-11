@@ -1,0 +1,45 @@
+.cp-widget {
+    text-align: center;
+}
+
+.cp-widget.indicator-circle {
+    fill: #f1f1f1;
+}
+
+.cp-widget .progress-text {
+    fill: #A4A4A4;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.cp-widget .progress-text .label {
+    font-size: 15px;
+    font-family: Avenir;
+}
+
+.cp-widget .label.total {
+  font-weight: bold;
+}
+
+.cp-widget .label.inner {
+  fill: #ff6744;
+}
+
+.cp-widget .label.outer {
+  fill: rgb(103, 103, 204);
+}
+
+.cp-widget .progress-bar {
+    stroke: #000;
+    stroke-width: 3px;
+}
+
+.cp-widget .outer-bar {
+    stroke-width: 8px;
+    stroke: rgb(103, 103, 204);
+}
+
+.cp-widget .inner-bar {
+  stroke: #ff6744;
+  stroke-width: 8px;
+}

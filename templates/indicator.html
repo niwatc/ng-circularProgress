@@ -1,0 +1,16 @@
+<svg class="indicator-circle"
+    width="150" height="200"
+    version="1.2"
+    xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <circle cx="50%" cy="50%" r="45" />
+        <text class="progress-text" text-anchor="middle" alignment-baseline="middle" dx="50%" dy="47%"><tspan class="label outer">{{outercurrent|number}}</tspan></text>
+        <text class="progress-text" text-anchor="middle" alignment-baseline="middle" dx="50%" dy="57%"><tspan class="label inner">{{innercurrent|number}}</tspan></text>
+        <text class="progress-text" text-anchor="middle" alignment-baseline="middle" dx="30%" dy="90%"><tspan class="label outer total">{{outertotal|number}}</tspan></text>
+        <text class="progress-text" text-anchor="middle" alignment-baseline="middle" dx="70%" dy="90%"><tspan class="label inner total">{{innertotal|number}}</tspan></text>
+    </g>
+    <g path-group>
+        <path class="progress-bar inner-bar" stroke-linejoin="round" inner-path />
+        <path class="progress-bar outer-bar" stroke-linejoin="round" outer-path />
+    </g>
+</svg>
